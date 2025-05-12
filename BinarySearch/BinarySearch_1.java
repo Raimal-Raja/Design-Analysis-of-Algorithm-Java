@@ -1,5 +1,3 @@
-package BinarySearch;
-
 public class BinarySearch_1{
     public static void main(String[]args){
         int arr[] = {-12,-7,-3, 0, 4, 7,9,10,16,33,67,87,98,102,204,406};
