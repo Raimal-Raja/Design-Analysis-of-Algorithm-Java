@@ -2,9 +2,9 @@
 
 Standalone Java exercises for array operations, linear search, binary search, and algorithm practice.
 
-## Repository guide
+## Setup and repository reference
 
-### Contents
+### Project structure
 
 - [AddArrayUsingMethod.class](AddArrayUsingMethod.class)
 - [AddArrayUsingMethod.java](AddArrayUsingMethod.java)
@@ -31,9 +31,15 @@ Java sources were compiled with the Eclipse compiler and a Java runtime; use a l
 
 ### Configuration and limitations
 
+Use a local JDK and compile individual exercises in their own directories. These files are independent demonstrations rather than one combined application.
+
 ### Validation
 
-Reviewed on 2026-10-08. All Java sources compiled successfully. Compilation alone does not establish every algorithm’s correctness.
+Audit: 2026-10-08. Repository structure, setup instructions and description were reviewed. Syntax checks do not establish full runtime correctness. External APIs, live scraping, GUI interaction, notebook training and production deployment were not comprehensively exercised.
+
+### Repository description
+
+The short GitHub description is provided in [REPOSITORY_DESCRIPTION.md](REPOSITORY_DESCRIPTION.md).
 
 ### Contributions
 
