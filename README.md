@@ -27,13 +27,13 @@ Use a JDK and compile individual exercises separately; repeated class names may 
 javac "ThreeWayOfCreatingArray.java"
 ```
 
-The JDK was unavailable for compilation checks in this review.
+Java sources were compiled with the Eclipse compiler and a Java runtime; use a local JDK for the commands above.
 
 ### Configuration and limitations
 
 ### Validation
 
-Reviewed on 2026-10-08. Repository structure and documentation were reviewed. No application runtime, training job, or platform-specific build was executed.
+Reviewed on 2026-10-08. All Java sources compiled successfully. Compilation alone does not establish every algorithm’s correctness.
 
 ### Contributions
 
