@@ -1,46 +1,56 @@
-# Design-Analysis-of-Algorithm-Java
+# Algorithm Design and Analysis — Java
 
 Standalone Java exercises for array operations, linear search, binary search, and algorithm practice.
 
-## Setup and repository reference
+## Project focus
 
-### Project structure
+Java exercises. Use the directory map to choose a focused example or learning topic instead of treating the repository as one application.
 
-- [AddArrayUsingMethod.class](AddArrayUsingMethod.class)
-- [AddArrayUsingMethod.java](AddArrayUsingMethod.java)
-- [BinarySearch](BinarySearch)
-- [Linear Search](Linear%20Search)
-- [ThreeWayOfCreatingArray.java](ThreeWayOfCreatingArray.java)
-- [ThreeWayOfPrintingArray.class](ThreeWayOfPrintingArray.class)
-- [ThreeWayOfPrintingArray.java](ThreeWayOfPrintingArray.java)
+## Workflow
 
-### Getting started
+```mermaid
+flowchart TD
+    A["Select a chapter or exercise"] --> B["Read the associated source or notes"]
+    B --> C["Run one example or notebook"]
+    C --> D{"Expected outcome?"}
+    D -->|Yes| E["Record findings and continue"]
+    D -->|No| F["Review assumptions and inputs"]
+    F --> B
+```
+
+## Repository structure
+
+| Path | Purpose |
+| --- | --- |
+| [`AddArrayUsingMethod.java`](AddArrayUsingMethod.java) | Standalone programming exercise or example. |
+| [`BinarySearch/`](BinarySearch) | Project-specific source, resources, or learning material. |
+| [`Linear Search/`](Linear%20Search) | Project-specific source, resources, or learning material. |
+| [`ThreeWayOfCreatingArray.java`](ThreeWayOfCreatingArray.java) | Standalone programming exercise or example. |
+| [`ThreeWayOfPrintingArray.java`](ThreeWayOfPrintingArray.java) | Standalone programming exercise or example. |
+
+## Getting started
 
 ```bash
 git clone https://github.com/Raimal-Raja/Design-Analysis-of-Algorithm-Java.git
 cd Design-Analysis-of-Algorithm-Java
 ```
 
-Use a JDK and compile individual exercises separately; repeated class names may appear across folders. Example:
+Use a JDK. Compile individual exercises from their own directories; some folders reuse class names.
 
 ```bash
-javac "ThreeWayOfCreatingArray.java"
+javac AddArrayUsingMethod.java
 ```
 
-Java sources were compiled with the Eclipse compiler and a Java runtime; use a local JDK for the commands above.
+Run the class containing `public static void main` from the corresponding package/class directory.
 
-### Configuration and limitations
+## Verification
 
-Use a local JDK and compile individual exercises in their own directories. These files are independent demonstrations rather than one combined application.
+Compile or run one exercise at a time, test ordinary and boundary inputs, and compare the output with its stated problem. A successful build is not proof of algorithmic correctness.
 
-### Validation
+## Contributing
 
-Recorded checks from the previous maintenance review (2026-10-08): Syntax checks do not establish full runtime correctness. External APIs, live scraping, GUI interaction, notebook training and production deployment were not comprehensively exercised.
+Include reproduction steps, the affected path, expected behavior, and the checks you ran. Keep credentials, generated environments, and unnecessary build artifacts out of commits.
 
-### Contributions
+## License
 
-Describe the issue, reproduction steps, environment, and expected behavior when proposing a change. Keep generated environments, credentials, and unnecessary build artifacts out of new commits.
-
-### License
-
-No top-level license file was found during this review.
+No top-level license file is currently tracked. Check reuse permissions with the repository owner.
